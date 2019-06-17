@@ -22,6 +22,8 @@ Send Hex Data 01 03 00 00 00 02 C4 0B
 
 Data to be send withot Checksum at the end -> 010300000002 
 
+![online-crc16](https://user-images.githubusercontent.com/4562957/59607279-4fc18700-9113-11e9-98fe-20c28b3bf514.jpg)
+
 
 
 
