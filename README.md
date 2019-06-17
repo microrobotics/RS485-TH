@@ -22,3 +22,9 @@ The RS484-TH sensor is based on the SHTXX series high accuracy Temperature and H
 - RED = 485-A
 - GREEN = 485-B
 
+**Serial Settinhs**
+
+- Baud rate: 9600, 8 bits, 1 stop, no parity
+- Default Slave Address = 01
+
+
