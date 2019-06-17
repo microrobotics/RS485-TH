@@ -13,7 +13,7 @@
 - C4 : CRC16 Checksum - Lo Byte 
 - 0B : CRC16 Checksum - High Byte
 
-Please note, if any changes are made to the address, command or data field, the CRC-16 checksum must be re calculated (see down below for instructions)
+*Please note, if any changes are made to the address, command or data field, the CRC-16 checksum must be re calculated (see down below for instructions)*
 
 **Return Data Format**
 - 01 : Address
@@ -28,7 +28,7 @@ Please note, if any changes are made to the address, command or data field, the 
 
 **How to extract Temperature and Humidty from return data**
 
-**Tempature**
+**Temparature**
 
 - 01 : Temp Hi Byte
 - 11 : Temp Low Byte
