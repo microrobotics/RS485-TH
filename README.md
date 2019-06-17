@@ -27,4 +27,8 @@ The RS484-TH sensor is based on the SHTXX series high accuracy Temperature and H
 - Baud rate: 9600, 8 bits, 1 stop, no parity
 - Default Slave Address = 01
 
+**Terminal Program**
+- Any terminal program that supprt Hex can be used, but Accessport works great and is free 
+- Download at http://www.sudt.com/en/ap/index.html
+
 
