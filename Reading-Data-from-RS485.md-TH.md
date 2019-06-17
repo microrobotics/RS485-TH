@@ -19,6 +19,7 @@ Send Hex Data 01 03 00 00 00 02 C4 0B
 - 0B - CRC16 Checksum - High Byte
 
 **How to calculate CRC16 Checksum**
+
 Data to be send withot Checksum at the end -> 010300000002 
 
 
