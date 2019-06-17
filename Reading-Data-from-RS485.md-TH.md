@@ -6,9 +6,17 @@ Slave ID (2 bytes) | Command(2 bytes) | Data (4 bytes) | CRC (4 bytes)
 |--------------|-------- | --------|---------
    XX    |    XX   |  XX XX  | XX XX 
 
-
+**Example**
 Send Hex Data 01 03 00 00 00 02 C4 0B
 
+- 01 - Slave Address
+- 03 - Read (Mode 03)
+- 00
+- 00 
+- 00 
+- 02
+- c4
+- 0B
 
 
 
