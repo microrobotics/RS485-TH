@@ -14,3 +14,11 @@ The RS484-TH sensor is based on the SHTXX series high accuracy Temperature and H
 - Baud rate: 9600, 8 bits of data, 1 stop, no parity
 - Size: 60 * 30 * 18mm
 - Product Link https://www.robotics.org.za/RS485-TH
+
+**Pinouts**
+
++V = Yellow
+GND = Black
+RED = 485-A
+GREEN = 485-B
+
