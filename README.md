@@ -13,7 +13,7 @@ The RS484-TH sensor is based on the SHTXX series high accuracy Temperature and H
 - Device address: can be set to 1-255, the default is 1
 - Baud rate: 9600, 8 bits of data, 1 stop, no parity
 - Size: 60 * 30 * 18mm
-- Product Link https://www.robotics.org.za/RS485-TH target="_blank"
+- Product Link https://www.robotics.org.za/RS485-TH 
 
 **Pinouts**
 
