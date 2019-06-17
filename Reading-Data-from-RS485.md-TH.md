@@ -2,11 +2,19 @@
 
 Modbus request consist of a 8 Byte Header. 
 
-- Send request to sensor - Hex Data 01 03 00 00 00 02 C4 0B
-- Data Returned from sensor = 01 03 04 01 11 02 72 2A 8F
+- Send request to sensor = 01 03 00 00 00 02 C4 0B (Hex, 8 Bytes)
+- Data Returned from sensor = 01 03 04 01 11 02 72 2A 8F (Hex, 9 Bytes)
 
-
-
+**Return Data Format**
+- 01 : Address
+- 03 : Mode - Read was done
+- 04 : Data Lenght - 4 Bytes
+- 01 : Temp Hi Byte
+- 11 : Temp Low Byte
+- 02 : Humidity Hi Byte
+- 72 : Humidity Low Byte
+- 2A : CRC16 Low Byte
+- 8F : CRC16 High Byte
 
 
 Slave ID (2 bytes) | Command(2 bytes) | Data (4 bytes) | CRC (4 bytes)
