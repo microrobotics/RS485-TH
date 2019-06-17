@@ -27,6 +27,7 @@ Please note, if any changes are made to the address, command or data field, the 
 - 8F : CRC16 High Byte
 
 **How to extract Temperature and Humidty from return data**
+
 **Tempature**
 
 - 01 : Temp Hi Byte
@@ -34,6 +35,7 @@ Please note, if any changes are made to the address, command or data field, the 
 - 0111 (Hex) = 273 (DEC) = 27.3°C 
 
 **Humidity**
+
 - 02 : Humidity Hi Byte
 - 72 : Humidity Low Byte
 - 0272(Hex) = 626(Dec) = 62.6% 
