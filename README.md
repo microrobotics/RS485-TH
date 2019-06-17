@@ -17,8 +17,8 @@ The RS484-TH sensor is based on the SHTXX series high accuracy Temperature and H
 
 **Pinouts**
 
-+V = Yellow
-GND = Black
-RED = 485-A
-GREEN = 485-B
+- +V = Yellow
+- GND = Black
+- RED = 485-A
+- GREEN = 485-B
 
