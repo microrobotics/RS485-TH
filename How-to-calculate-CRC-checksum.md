@@ -1,4 +1,4 @@
-**RS485-TH CRC-16 Checksum Background**
+**RS485-TH CRC-16 Checksum Background**  
 When data is send to or from the RS485-TH sensor the last 2 bytes represent the checksum. 
 
 Example
