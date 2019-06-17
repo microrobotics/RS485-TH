@@ -4,7 +4,7 @@ Modbus request consist of a 8 Byte Header
 
 Slave ID (2 bytes) | Command(2 bytes) | Data (4 bytes) | CRC (4 bytes)
 |:--------:|:--------:|:-------:|:---------:|
- |  XX    |   XX  |  XX XX  | XX XX |
+ |  XX    |   XX  |  XX XX  | CL CH |
 
 **Example**
 Send Hex Data 01 03 00 00 00 02 C4 0B
@@ -15,16 +15,21 @@ Send Hex Data 01 03 00 00 00 02 C4 0B
 - 00 
 - 00 
 - 02 - No of Registers Requested
-- C4 - CRC16 Checksum - Lo Byte 
-- 0B - CRC16 Checksum - High Byte
+- XX - CRC16 Checksum To be calculated - Lo Byte 
+- XX - CRC16 Checksum To be calculated - High Byte
 
-**How to calculate CRC16 Checksum**
+**Online CRC Calculator**
 
-Data to be send withot Checksum at the end -> 010300000002 
+Any online CRC calculator that can calculate CR16 Modbus can be used
+- Go to https://www.lammertbies.nl/comm/info/crc-calculation.html
+- Select Hex Format
+- Insert data crc to be calculated for - eg 010300000002 
+- Calculate -> Output CRC-16 (Modbus) =	0x0BC4
 
 ![online-crc16](https://user-images.githubusercontent.com/4562957/59607279-4fc18700-9113-11e9-98fe-20c28b3bf514.jpg)
 
-
+**New Request with CRC - Please note order of CRC Low and High Byte** 
+Send Hex Data 01 03 00 00 00 02 C4 0B
 
 
 
