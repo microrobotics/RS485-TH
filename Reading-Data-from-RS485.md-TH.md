@@ -3,15 +3,17 @@
 - Request Data = 01 03 00 00 00 02 C4 0B (Hex, 8 Bytes)
 - Data Returned from sensor = 01 03 04 01 11 02 72 2A 8F (Hex, 9 Bytes)
 
-**Send Data Format**
+**Request Data Format**
 - 01 : Address
 - 03 : Mode - Read 
 - 00 : na
 - 00 : na
-- 00 : 
+- 00 : na
 - 02 : No of registers requested 
 - C4 : CRC16 Checksum To be calculated - Lo Byte 
 - 0B : CRC16 Checksum To be calculated - High Byte
+
+Please note that if any changes is made, to the CRC-16 must be re calculated (see down below for method)
 
 **Return Data Format**
 - 01 : Address
