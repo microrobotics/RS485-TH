@@ -1,4 +1,4 @@
-**How to read Data from the Sensor** 
+**How to read Request Data from the Sensor** 
 
 - Request Data = 01 03 00 00 00 02 C4 0B (Hex, 8 Bytes)
 - Data Returned from sensor = 01 03 04 01 11 02 72 2A 8F (Hex, 9 Bytes)
