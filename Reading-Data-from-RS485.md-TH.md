@@ -10,10 +10,10 @@
 - 00 : na
 - 00 : na
 - 02 : No of registers requested 
-- C4 : CRC16 Checksum To be calculated - Lo Byte 
-- 0B : CRC16 Checksum To be calculated - High Byte
+- C4 : CRC16 Checksum - Lo Byte 
+- 0B : CRC16 Checksum - High Byte
 
-Please note that if any changes is made, to the CRC-16 must be re calculated (see down below for method)
+Please note that if any changes is made, the CRC-16 checksum must be re calculated (see down below for method)
 
 **Return Data Format**
 - 01 : Address
