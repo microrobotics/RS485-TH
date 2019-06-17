@@ -2,7 +2,7 @@
 A MODBUS master message to the slave is made up from 8 bytes that contains the slave address, a command, the data, and a CRC check sum. The checksum is calculated based on the values of the address, command and the data. Whenever these values change, the chacksum must be recalculated. The last 2 bytes represent the checksum. 
 
 **Example - Request Data**
-- 01 03 00 00 00 02 C4 0B   
+- 01 03 00 00 00 02 C4 0B (Checksum is represented by last 2 bytes)
 - C4 : CRC16 Checksum - Lo Byte
 - 0B : CRC16 Checksum - High Byte
 - Checksum = 0x0BC4
