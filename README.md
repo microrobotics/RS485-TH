@@ -32,6 +32,7 @@ The RS484-TH sensor is based on the SHTXX series high accuracy Temperature and H
 - Download at http://www.sudt.com/en/ap/index.html
 
 **Modbus & RS485 Relationship**
+
 A MODBUS master message to the slave is made up from 8 bytes that contains the slave address, a command, the data, and a CRC check sum.
 Since Modbus protocol is just a messaging structure, it is independent of the underlying physical layer. It is traditionally implemented 
 using RS485, RS422 or RS232.  
