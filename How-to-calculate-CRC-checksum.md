@@ -9,10 +9,10 @@ When data is send too or from the RS485-TH sensor the last 2 bytes represent the
 
 *So for the default address the checksum is given by the manufacturer, we can actually check if this is correct by using an online CRC Calculator*
 
-Go to https://www.lammertbies.nl/comm/info/crc-calculation.html
-Select Hex Format
-Insert Request Data (without CRC) into the CRC calculater for - eg 010300000002
-Calculate -> Output CRC-16 (Modbus) =	0x0BC4
+- Go to https://www.lammertbies.nl/comm/info/crc-calculation.html  
+- Select Hex Format  
+- Insert Request Data (without CRC) into the CRC calculater for - eg 010300000002  
+- Calculate -> Output CRC-16 (Modbus) =	0x0BC4
 
 **So why is their a need to calculate the CRC Checksum**  
 
