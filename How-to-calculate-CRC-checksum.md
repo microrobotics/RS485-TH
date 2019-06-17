@@ -6,7 +6,7 @@ A MODBUS master message to the slave is made up from 8 bytes that contains the s
 - C4 : CRC16 Checksum - Lo Byte
 - 0B : CRC16 Checksum - High Byte
 - Checksum = 0x0BC4
-- Usually the checksum is for the default address and we do not need to calculate it
+- For the default address the checksum is supplied by the manufacturer 
 - If we make changes to the address, command or data, the checksum must be recalculated 
 
 **How to calculate the CRC Checksum with online CRC Calculator**
