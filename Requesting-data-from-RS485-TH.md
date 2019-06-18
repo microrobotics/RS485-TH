@@ -13,7 +13,8 @@
 - C4 : CRC16 Checksum - Lo Byte 
 - 0B : CRC16 Checksum - High Byte
 
-*Please note, if any changes are made to the address, command or data field, the CRC-16 checksum must be re calculated (see instructions below)*
+*Please note, if any changes are made to the address, command or data field, the CRC-16 checksum must be re calculated  
+(see document - How to calculate CRC - https://github.com/microrobotics/RS485-TH/blob/master/How-to-calculate-CRC-checksum.md)
 
 **Return Data Format**
 - 01 : Address
