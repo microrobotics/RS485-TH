@@ -5,5 +5,21 @@ The RS485-TH Sensor default slave address is 0x01. In a standard MODBUS network,
 - When changing the address, there can be only one slave device on the bus, otherwise all slave devices will be changed.
 - When the address is change, the CRC checksum must be recalculated. See document How to Calculating CRC checksum - https://github.com/microrobotics/RS485-TH/blob/master/How-to-calculate-CRC-checksum.md
 
+**Example 01**  
+
+Send Request 00060000000209DA  
+
+- 00 - Talk to all devices on the bus
+- 06 - New address 
+- 00 
+- 00
+- 00
+- 02 
+- 09 - Checksum Hig
+- DA - 
+
+
+
+
 
 
