@@ -25,6 +25,8 @@ Send Request 00060000000209DA
 - Press - Calculate 
 - CRC-16 (Modbus) = 0xDA09
 - Complete Hex Value = 00060000000209DA  
+- Send 00 06 00 00 02 09 DA via Terminal to RS485-TH 
+- Now the device new address will be 0x06
 
 
 
