@@ -14,12 +14,14 @@ AT+CT-xx.x Enter to send
 AT+CT+2.1 adds 2.1 degrees to the current temperature
 AT+CT-1.5 minus 1.5 degrees at current temperature
 
-Humidity add format：
+**Increase Humidity**
 AT+CH+x.x
- AT+CH+xx.x Enter to send
-Humidity reduce format：
+AT+CH+xx.x Enter to send
+
+**Decrease Humidity**
 AT+CH-x.x
- AT+CH-xx.x Enter to send
-Example:
+AT+CH-xx.x Enter to send
+
+**Humidity Example**
 AT+CH+5.2 adds 5.2% to the current humidity
 AT+CH-1.0 decrements 1.0% in current humidity
