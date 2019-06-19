@@ -18,7 +18,7 @@ Send Request 00060000000209DA
 - 09 - Checksum High Byte
 - DA - Checksum Low Byte
 
-** How to calculate the Checksum **
+**How to calculate the Checksum**
 - https://www.lammertbies.nl/comm/info/crc-calculation.html
 - Insert 000600000002 into CRC calculator  
 - Select Hex Format 
